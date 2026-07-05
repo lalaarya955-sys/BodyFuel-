@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BodyFuel - Diet Planner</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<h1>BODYFUEL</h1>
+<p>Fuel Your Body. Transform Your Life.</p>
+</header>
+
+<div class="container">
+
+<h2>Personal Details</h2>
+
+<input type="text" id="name" placeholder="Full Name">
+
+<input type="number" id="age" placeholder="Age">
+
+<input type="number" id="height" placeholder="Height (cm)">
+
+<input type="number" id="weight" placeholder="Weight (kg)">
+
+<select id="goal">
+<option>Weight Loss</option>
+<option>Muscle Gain</option>
+<option>Maintain</option>
+</select>
+
+<select id="diet">
+<option>Desi Diet</option>
+<option>High Protein Diet</option>
+<option>Premium Diet</option>
+</select>
+
+<select id="protein">
+<option>Protein - Yes</option>
+<option>Protein - No</option>
+</select>
+
+<select id="meals">
+<option>2 Meals</option>
+<option>3 Meals</option>
+<option>4 Meals</option>
+</select>
+
+<button onclick="generateDiet()">
+Generate Diet Plan
+</button>
+
+<div id="result"></div>
+
+</div>
+
+<footer>
+
+WhatsApp :
+<a href="https://wa.me/918168613076">
+8168613076
+</a>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
